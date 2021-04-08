@@ -107,7 +107,7 @@ html,body
     #centerboth {
         position:absolute;
         top:0px;
-        background-image: url(/res/background.jpg);
+        background-image: url(res/background.jpg);
            background-size: cover;
            background-position: center;
            display: flex;
@@ -604,5 +604,10 @@ padding: 14px;
        display: flex;
        align-items: center;
    }
+}
+a{
+    color: inherit;
+    text-decoration: none;
+
 }
   

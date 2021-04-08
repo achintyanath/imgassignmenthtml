@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Information Mangaement Group</title>
+    <link rel="stylesheet" href="/res/css/all.min.css">
     <link rel="stylesheet" href="stylesheet.css">
+    
 </head>
 <body>
     
     <div id="container">
 <div id="upper_box">
-        <div id="navbar">
+        <div class="navbar">
             <div id ="left_side">
-                <div id ="image">
-              <img src="Screenshot (53).png" id="img_image">
-                </div>
+                <div id="imgdiv">
+              <img src="/res/Screenshot (53).png" id="img_image">
+            </div>
             </div>
             <div id ="right_side">
             <div id ="right-side">
@@ -39,6 +42,9 @@
           
             </div>
             </div>
+            <div id ="mobile_bar">
+                <i class="fas fa-bars" id ="menu"></i>
+            </div>
         </div>
        <div id ="centerboth">
            <!-- <div id ="left_col"> -->
@@ -58,7 +64,7 @@
             
             <!-- <div id ="right_col"> -->
             <div id="right">
-                <img src="computer.png" id="image">
+                <img src="/res/computer.png" id="image">
             </div>
             <!-- </div> -->
         
@@ -70,14 +76,14 @@
                 <h1 id="projectformat">Projects</h1>
                   </div>
                 <div>
-                <img src="project (1).png" id="image2">
+                <img src="/res/project (1).png" id="image2">
                  </div>
                 <div id ="fourgrps">
                     <div class ="fourg">
                     <a href="link to r_drive" class="group">
                         <div class="nums">1</div>
                         <div class="right-side">
-                            <div class="grpheading">R Drive</div>
+                            <div class="grpheading"><strong>R Drive</strong></div>
                             <div class="description">
                             <p id="des">An inhouse solution for the media storage and sharing at IIT-R.</p>
                              </div>
@@ -91,7 +97,7 @@
                         <a href="link to r_drive" class="group">
                             <div class="nums">2</div>
                             <div class="right-side">
-                                <div class="grpheading">Noticeboard</div>
+                                <div class="grpheading"><strong>Noticeboard</strong></div>
                                 <div class="description">
                                 <p id="des">The official e-noticeboard for IIT-R.</p>
                                  </div>
@@ -105,7 +111,7 @@
                             <a href="link to r_drive" class="group">
                                 <div class="nums">3</div>
                                 <div class="right-side">
-                                    <div class="grpheading">No Dues</div>
+                                    <div class="grpheading"><strong>No Dues</strong></div>
                                     <div class="description">
                                     <p id="des">Digitises the hectic process of obtaining no dues which were previously to be taken from 12-15 offices individually now from your personal desktop.</p>
                                      </div>
@@ -120,7 +126,7 @@
                                 <a href="link to r_drive" class="group">
                                     <div class="nums">4</div>
                                     <div class="right-side">
-                                        <div class="grpheading">Connect-e-dil</div>
+                                        <div class="grpheading"><strong>Connect-e-dil</strong></div>
                                         <div class="description">
                                         <p id="des">A fun app active in valentine's week (that time of the year), where students can send and receive roses (even anonymously), make couples, vote for other couples and shoutout their heart out. <3</p>
                                          </div>
@@ -147,7 +153,7 @@
                 </div>
                 <div id="photo_text">
                     <div id="leftimage">
-                        <img src="blog.png" id="blog_image">
+                        <img src="/res/blog.png" id="blog_image">
                     </div>
                     <div id="rightpara">
                         <p id="descr">Ken the ins and outs of life and moil at IMG.<br>Find answers to all your whats, whys and hows.
@@ -166,7 +172,7 @@
 
         <div id ="contactus">
             
-                <div id="left_side" class="contact_about" >
+                <div id="left_side1" class="contact_about" >
                     <div>
                         <h5>
                             <div id="conct">
@@ -176,16 +182,21 @@
                         <p class="address">1st floor, ICC, IIT Roorkee<br>Roorkee,<br>Uttarakhand, India -  247667</p>
                     </div>
                     <p class="phone">
+                        <span class="phone_email"><i class="fas fa-phone"></i></span>
                        01332-284-521
                    <br>
                    <br>
+                   <span class="phone_email"><i class="fas fa-envelope-square"></i></span>
                        img@iitr.ac.in
                     </p>
                     <div>
-                        <span id="photo_of_social_media"><i class="fab fa-instagram"></i></span>
-                        <span id="photo_of_social_media"></span>
-                        <span id="photo_of_social_media"></span>
-                        <span id="photo_of_social_media"></span>
+                        <span class="photo_of_social_media"><i class="fab fa-github"></i></span>
+                        <span class="photo_of_social_media"><i class="fab fa-medium"></i></span>
+                        <span class="photo_of_social_media"><i class="fab fa-facebook-square"></i></span>
+                        
+                        <span class="photo_of_social_media"><i class="fab fa-instagram"></i></span>
+                        
+                        
                     </div>
                 </div>
 

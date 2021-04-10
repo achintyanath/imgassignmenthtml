@@ -13,8 +13,15 @@ html,body
     padding: 0px;
     overflow-x: hidden; 
 }
+#container{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh ;
+    position: relative;
+}
 #upper_box{
     height:100vh;
+    flex:1 0 auto;
 }
 .navbar{
     position: fixed;
@@ -240,6 +247,8 @@ width:40%;
     flex-direction: column;
    justify-content:center;
     align-items: center;
+    flex:1 0 auto;
+
     }
     .fourg{
         padding: 14px;
@@ -382,6 +391,7 @@ padding: 14px;
     display:flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 0 auto;
 }
   #blog_heading{
    
@@ -478,6 +488,7 @@ padding: 14px;
       justify-content: center;
       color:#ffffff;
       flex-wrap: wrap-reverse;
+      flex:1 0 auto;
   }
   .contact_about{
     padding: 14px;
@@ -567,7 +578,7 @@ padding: 14px;
   
 
   #footer{
-      position: relative;
+   position: relative;
     width: 100%;
     background-color: #263146;
     color: #ffffff;
@@ -586,7 +597,6 @@ padding: 14px;
     color: #ffffff;
     margin-left: auto!important;
     margin-right: auto!important;
-    min-height: 6%;
     display: flex;
     align-items: center;
 }
@@ -600,7 +610,6 @@ padding: 14px;
        color: #ffffff;
        margin-left: auto!important;
        margin-right: auto!important;
-       min-height: 6%;
        display: flex;
        align-items: center;
    }
